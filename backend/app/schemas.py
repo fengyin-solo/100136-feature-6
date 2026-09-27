@@ -51,7 +51,7 @@ class InflowEntry(BaseModel):
     field_4: str | None = None  # COD浓度
     field_5: str | None = None  # 氨氮浓度
     field_6: str | None = None  # pH值
-    field_7: str | None = None  # 进水状态
+    field_7: str | None = None  # 状态（在控/预警/已挂起/已处置）
 
 class AerationEntry(BaseModel):
     """曝气区段明细结构。"""
